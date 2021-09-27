@@ -1,0 +1,721 @@
+﻿Country,Year,Value
+Afghanistan,2016,88
+Afghanistan,2017,88
+Afghanistan,2018,86
+Afghanistan,2019,43
+Albania,2016,134
+Albania,2017,134
+Albania,2018,110
+Albania,2019,36
+Algeria,2016,25
+Algeria,2017,28
+Algeria,2018,59
+Algeria,2019,69
+Angola,2016,59
+Angola,2017,78
+Angola,2018,91
+Angola,2019,93
+Antigua and Barbuda,2016,44
+Antigua and Barbuda,2017,43
+Antigua and Barbuda,2018,17
+Antigua and Barbuda,2019,21
+Argentina,2016,52
+Argentina,2017,45
+Argentina,2018,41
+Argentina,2019,37
+Armenia,2016,46
+Armenia,2017,25
+Armenia,2018,21
+Armenia,2019,25
+Australia,2016,42
+Australia,2017,42
+Australia,2018,37
+Australia,2019,37
+Austria,2016,33
+Austria,2017,35
+Austria,2018,32
+Austria,2019,22
+Azerbaijan,2016,24
+Azerbaijan,2017,20
+Azerbaijan,2018,43
+Azerbaijan,2019,76
+Bahamas,2016,62
+Bahamas,2017,53
+Bahamas,2018,46
+Bahamas,2019,39
+Bangladesh,2016,29
+Bangladesh,2017,29
+Bangladesh,2018,34
+Bangladesh,2019,52
+Barbados,2016,17
+Barbados,2017,21
+Barbados,2018,37
+Barbados,2019,29
+Belarus,2016,122
+Belarus,2017,103
+Belarus,2018,67
+Belarus,2019,68
+Belgium,2016,34
+Belgium,2017,34
+Belgium,2018,30
+Belgium,2019,28
+Belize,2016,17
+Belize,2017,15
+Belize,2018,17
+Belize,2019,33
+Benin,2016,13
+Benin,2017,12
+Benin,2018,11
+Benin,2019,12
+Bolivia (Plurinational State of),2016,25
+Bolivia (Plurinational State of),2017,24
+Bolivia (Plurinational State of),2018,23
+Bolivia (Plurinational State of),2019,23
+Bosnia and Herzegovina,2016,83
+Bosnia and Herzegovina,2017,82
+Bosnia and Herzegovina,2018,84
+Bosnia and Herzegovina,2019,30
+Botswana,2016,46
+Botswana,2017,36
+Botswana,2018,45
+Botswana,2019,54
+Brazil,2016,34
+Brazil,2017,33
+Brazil,2018,35
+Brazil,2019,37
+Brunei Darussalam,2016,9
+Brunei Darussalam,2017,6
+Brunei Darussalam,2018,11
+Brunei Darussalam,2019,11
+Bulgaria,2016,45
+Bulgaria,2017,45
+Bulgaria,2018,43
+Bulgaria,2019,45
+Burkina Faso,2016,15
+Burkina Faso,2017,20
+Burkina Faso,2018,39
+Burkina Faso,2019,41
+Cabo Verde,2016,12
+Cabo Verde,2017,12
+Cabo Verde,2018,13
+Cabo Verde,2019,16
+Cambodia,2016,27
+Cambodia,2017,27
+Cambodia,2018,27
+Cambodia,2019,26
+Cameroon,2016,25
+Cameroon,2017,28
+Cameroon,2018,33
+Cameroon,2019,25
+Canada,2016,34
+Canada,2017,39
+Canada,2018,44
+Canada,2019,68
+Central African Republic,2016,154
+Central African Republic,2017,119
+Central African Republic,2018,65
+Central African Republic,2019,88
+Chad,2016,50
+Chad,2017,52
+Chad,2018,49
+Chad,2019,36
+Chile,2016,12
+Chile,2017,13
+Chile,2018,13
+Chile,2019,14
+China,2016,20
+China,2017,19
+China,2018,19
+China,2019,21
+"China, Hong Kong SAR",2016,56
+"China, Hong Kong SAR",2017,59
+"China, Hong Kong SAR",2018,52
+"China, Hong Kong SAR",2019,35
+"China, Macao SAR",2016,165
+"China, Macao SAR",2017,160
+"China, Macao SAR",2018,151
+"China, Macao SAR",2019,130
+"China, mainland",2016,21
+"China, mainland",2017,20
+"China, mainland",2018,20
+"China, mainland",2019,21
+"China, Taiwan Province of",2016,17
+"China, Taiwan Province of",2017,19
+"China, Taiwan Province of",2018,25
+"China, Taiwan Province of",2019,16
+Colombia,2016,96
+Colombia,2017,36
+Colombia,2018,74
+Colombia,2019,75
+Comoros,2016,21
+Comoros,2017,20
+Comoros,2018,23
+Comoros,2019,29
+Congo,2016,66
+Congo,2017,45
+Congo,2018,42
+Congo,2019,24
+Costa Rica,2016,44
+Costa Rica,2017,33
+Costa Rica,2018,38
+Costa Rica,2019,44
+Côte d'Ivoire,2016,73
+Côte d'Ivoire,2017,78
+Côte d'Ivoire,2018,75
+Côte d'Ivoire,2019,22
+Croatia,2016,36
+Croatia,2017,60
+Croatia,2018,57
+Croatia,2019,60
+Cuba,2016,27
+Cuba,2017,49
+Cuba,2018,68
+Cuba,2019,75
+Cyprus,2016,153
+Cyprus,2017,154
+Cyprus,2018,129
+Cyprus,2019,101
+Czechia,2016,68
+Czechia,2017,66
+Czechia,2018,67
+Czechia,2019,60
+Democratic People's Republic of Korea,2016,31
+Democratic People's Republic of Korea,2017,26
+Democratic People's Republic of Korea,2018,25
+Democratic People's Republic of Korea,2019,44
+Democratic Republic of the Congo,2016,27
+Democratic Republic of the Congo,2017,25
+Democratic Republic of the Congo,2018,26
+Democratic Republic of the Congo,2019,13
+Denmark,2016,13
+Denmark,2017,15
+Denmark,2018,16
+Denmark,2019,19
+Djibouti,2016,26
+Djibouti,2017,25
+Djibouti,2018,23
+Djibouti,2019,27
+Dominica,2016,22
+Dominica,2017,20
+Dominica,2018,21
+Dominica,2019,26
+Dominican Republic,2016,27
+Dominican Republic,2017,23
+Dominican Republic,2018,23
+Dominican Republic,2019,24
+Ecuador,2016,41
+Ecuador,2017,60
+Ecuador,2018,65
+Ecuador,2019,80
+Egypt,2016,46
+Egypt,2017,47
+Egypt,2018,47
+Egypt,2019,47
+El Salvador,2016,16
+El Salvador,2017,15
+El Salvador,2018,23
+El Salvador,2019,33
+Estonia,2016,27
+Estonia,2017,30
+Estonia,2018,40
+Estonia,2019,45
+Eswatini,2016,95
+Eswatini,2017,60
+Eswatini,2018,33
+Eswatini,2019,28
+Ethiopia,2016,75
+Ethiopia,2017,74
+Ethiopia,2018,54
+Ethiopia,2019,51
+Fiji,2016,94
+Fiji,2017,103
+Fiji,2018,90
+Fiji,2019,49
+Finland,2016,21
+Finland,2017,24
+Finland,2018,27
+Finland,2019,12
+France,2016,41
+France,2017,48
+France,2018,50
+France,2019,51
+French Polynesia,2016,23
+French Polynesia,2017,34
+French Polynesia,2018,34
+French Polynesia,2019,24
+Gabon,2016,79
+Gabon,2017,75
+Gabon,2018,66
+Gabon,2019,52
+Gambia,2016,42
+Gambia,2017,38
+Gambia,2018,42
+Gambia,2019,49
+Georgia,2016,111
+Georgia,2017,112
+Georgia,2018,107
+Georgia,2019,62
+Germany,2016,32
+Germany,2017,16
+Germany,2018,18
+Germany,2019,29
+Ghana,2016,38
+Ghana,2017,50
+Ghana,2018,43
+Ghana,2019,54
+Greece,2016,37
+Greece,2017,54
+Greece,2018,49
+Greece,2019,33
+Grenada,2016,22
+Grenada,2017,21
+Grenada,2018,39
+Grenada,2019,37
+Guatemala,2016,31
+Guatemala,2017,19
+Guatemala,2018,17
+Guatemala,2019,20
+Guinea,2016,57
+Guinea,2017,52
+Guinea,2018,41
+Guinea,2019,25
+Guinea-Bissau,2016,102
+Guinea-Bissau,2017,92
+Guinea-Bissau,2018,74
+Guinea-Bissau,2019,70
+Guyana,2016,55
+Guyana,2017,53
+Guyana,2018,49
+Guyana,2019,50
+Haiti,2016,29
+Haiti,2017,30
+Haiti,2018,30
+Haiti,2019,38
+Honduras,2016,61
+Honduras,2017,52
+Honduras,2018,43
+Honduras,2019,24
+Hungary,2016,53
+Hungary,2017,69
+Hungary,2018,71
+Hungary,2019,60
+Iceland,2016,43
+Iceland,2017,41
+Iceland,2018,55
+Iceland,2019,43
+India,2016,22
+India,2017,20
+India,2018,21
+India,2019,22
+Indonesia,2016,21
+Indonesia,2017,20
+Indonesia,2018,25
+Indonesia,2019,34
+Iran (Islamic Republic of),2016,74
+Iran (Islamic Republic of),2017,42
+Iran (Islamic Republic of),2018,32
+Iran (Islamic Republic of),2019,53
+Iraq,2016,35
+Iraq,2017,39
+Iraq,2018,51
+Iraq,2019,85
+Ireland,2016,23
+Ireland,2017,20
+Ireland,2018,24
+Ireland,2019,20
+Israel,2016,33
+Israel,2017,32
+Israel,2018,36
+Israel,2019,35
+Italy,2016,59
+Italy,2017,58
+Italy,2018,49
+Italy,2019,45
+Jamaica,2016,23
+Jamaica,2017,26
+Jamaica,2018,32
+Jamaica,2019,36
+Japan,2016,17
+Japan,2017,11
+Japan,2018,11
+Japan,2019,14
+Jordan,2016,95
+Jordan,2017,96
+Jordan,2018,90
+Jordan,2019,36
+Kazakhstan,2016,43
+Kazakhstan,2017,45
+Kazakhstan,2018,39
+Kazakhstan,2019,40
+Kenya,2016,47
+Kenya,2017,35
+Kenya,2018,36
+Kenya,2019,36
+Kiribati,2016,89
+Kiribati,2017,83
+Kiribati,2018,79
+Kiribati,2019,64
+Kuwait,2016,90
+Kuwait,2017,108
+Kuwait,2018,107
+Kuwait,2019,100
+Kyrgyzstan,2016,10
+Kyrgyzstan,2017,22
+Kyrgyzstan,2018,23
+Kyrgyzstan,2019,34
+Lao People's Democratic Republic,2016,85
+Lao People's Democratic Republic,2017,86
+Lao People's Democratic Republic,2018,62
+Lao People's Democratic Republic,2019,37
+Latvia,2016,31
+Latvia,2017,38
+Latvia,2018,22
+Latvia,2019,31
+Lebanon,2016,181
+Lebanon,2017,187
+Lebanon,2018,170
+Lebanon,2019,97
+Lesotho,2016,150
+Lesotho,2017,198
+Lesotho,2018,210
+Lesotho,2019,198
+Liberia,2016,38
+Liberia,2017,39
+Liberia,2018,38
+Liberia,2019,23
+Lithuania,2016,22
+Lithuania,2017,21
+Lithuania,2018,23
+Lithuania,2019,22
+Luxembourg,2016,18
+Luxembourg,2017,16
+Luxembourg,2018,15
+Luxembourg,2019,9
+Madagascar,2016,64
+Madagascar,2017,53
+Madagascar,2018,28
+Madagascar,2019,27
+Malawi,2016,25
+Malawi,2017,23
+Malawi,2018,23
+Malawi,2019,16
+Malaysia,2016,44
+Malaysia,2017,51
+Malaysia,2018,46
+Malaysia,2019,19
+Maldives,2016,66
+Maldives,2017,71
+Maldives,2018,73
+Maldives,2019,74
+Mali,2016,63
+Mali,2017,60
+Mali,2018,45
+Mali,2019,30
+Malta,2016,13
+Malta,2017,16
+Malta,2018,25
+Malta,2019,23
+Mauritania,2016,32
+Mauritania,2017,41
+Mauritania,2018,32
+Mauritania,2019,16
+Mauritius,2016,22
+Mauritius,2017,24
+Mauritius,2018,15
+Mauritius,2019,18
+Mexico,2016,38
+Mexico,2017,44
+Mexico,2018,46
+Mexico,2019,27
+Mongolia,2016,63
+Mongolia,2017,72
+Mongolia,2018,70
+Mongolia,2019,51
+Montenegro,2016,69
+Montenegro,2017,46
+Montenegro,2018,51
+Montenegro,2019,61
+Morocco,2016,28
+Morocco,2017,27
+Morocco,2018,32
+Morocco,2019,33
+Mozambique,2016,82
+Mozambique,2017,93
+Mozambique,2018,73
+Mozambique,2019,52
+Myanmar,2016,22
+Myanmar,2017,14
+Myanmar,2018,15
+Myanmar,2019,19
+Namibia,2016,92
+Namibia,2017,85
+Namibia,2018,67
+Namibia,2019,19
+Nepal,2016,22
+Nepal,2017,20
+Nepal,2018,19
+Nepal,2019,52
+Netherlands,2016,6
+Netherlands,2017,10
+Netherlands,2018,9
+Netherlands,2019,8
+New Caledonia,2016,45
+New Caledonia,2017,43
+New Caledonia,2018,43
+New Caledonia,2019,52
+New Zealand,2016,9
+New Zealand,2017,9
+New Zealand,2018,8
+New Zealand,2019,8
+Nicaragua,2016,49
+Nicaragua,2017,56
+Nicaragua,2018,70
+Nicaragua,2019,71
+Niger,2016,21
+Niger,2017,25
+Niger,2018,24
+Niger,2019,41
+Nigeria,2016,30
+Nigeria,2017,31
+Nigeria,2018,31
+Nigeria,2019,6
+North Macedonia,2016,19
+North Macedonia,2017,19
+North Macedonia,2018,20
+North Macedonia,2019,23
+Norway,2016,10
+Norway,2017,11
+Norway,2018,10
+Norway,2019,14
+Oman,2016,49
+Oman,2017,61
+Oman,2018,61
+Oman,2019,39
+Pakistan,2016,16
+Pakistan,2017,17
+Pakistan,2018,20
+Pakistan,2019,29
+Panama,2016,27
+Panama,2017,31
+Panama,2018,24
+Panama,2019,11
+Papua New Guinea,2016,42
+Papua New Guinea,2017,33
+Papua New Guinea,2018,25
+Papua New Guinea,2019,19
+Paraguay,2016,25
+Paraguay,2017,26
+Paraguay,2018,24
+Paraguay,2019,22
+Peru,2016,18
+Peru,2017,21
+Peru,2018,30
+Peru,2019,32
+Philippines,2016,34
+Philippines,2017,34
+Philippines,2018,33
+Philippines,2019,44
+Poland,2016,50
+Poland,2017,46
+Poland,2018,43
+Poland,2019,42
+Portugal,2016,53
+Portugal,2017,61
+Portugal,2018,56
+Portugal,2019,43
+Republic of Korea,2016,34
+Republic of Korea,2017,25
+Republic of Korea,2018,28
+Republic of Korea,2019,33
+Republic of Moldova,2016,14
+Republic of Moldova,2017,25
+Republic of Moldova,2018,35
+Republic of Moldova,2019,31
+Romania,2016,86
+Romania,2017,82
+Romania,2018,84
+Romania,2019,100
+Russian Federation,2016,15
+Russian Federation,2017,14
+Russian Federation,2018,22
+Russian Federation,2019,24
+Rwanda,2016,10
+Rwanda,2017,22
+Rwanda,2018,47
+Rwanda,2019,65
+Saint Kitts and Nevis,2016,86
+Saint Kitts and Nevis,2017,103
+Saint Kitts and Nevis,2018,118
+Saint Kitts and Nevis,2019,117
+Saint Lucia,2016,19
+Saint Lucia,2017,19
+Saint Lucia,2018,19
+Saint Lucia,2019,11
+Saint Vincent and the Grenadines,2016,29
+Saint Vincent and the Grenadines,2017,21
+Saint Vincent and the Grenadines,2018,23
+Saint Vincent and the Grenadines,2019,27
+Samoa,2016,27
+Samoa,2017,15
+Samoa,2018,34
+Samoa,2019,38
+Sao Tome and Principe,2016,40
+Sao Tome and Principe,2017,37
+Sao Tome and Principe,2018,25
+Sao Tome and Principe,2019,42
+Saudi Arabia,2016,76
+Saudi Arabia,2017,58
+Saudi Arabia,2018,56
+Saudi Arabia,2019,23
+Senegal,2016,33
+Senegal,2017,40
+Senegal,2018,50
+Senegal,2019,42
+Serbia,2016,43
+Serbia,2017,40
+Serbia,2018,36
+Serbia,2019,23
+Seychelles,2016,24
+Seychelles,2017,26
+Seychelles,2018,17
+Seychelles,2019,16
+Sierra Leone,2016,57
+Sierra Leone,2017,70
+Sierra Leone,2018,64
+Sierra Leone,2019,58
+Slovakia,2016,104
+Slovakia,2017,93
+Slovakia,2018,86
+Slovakia,2019,67
+Slovenia,2016,15
+Slovenia,2017,19
+Slovenia,2018,19
+Slovenia,2019,18
+Solomon Islands,2016,46
+Solomon Islands,2017,27
+Solomon Islands,2018,37
+Solomon Islands,2019,36
+Somalia,2016,149
+Somalia,2017,115
+Somalia,2018,100
+Somalia,2019,90
+South Africa,2016,19
+South Africa,2017,16
+South Africa,2018,13
+South Africa,2019,21
+Spain,2016,10
+Spain,2017,24
+Spain,2018,27
+Spain,2019,27
+Sri Lanka,2016,41
+Sri Lanka,2017,43
+Sri Lanka,2018,42
+Sri Lanka,2019,19
+Sudan,2016,50
+Sudan,2017,24
+Sudan,2018,38
+Sudan,2019,31
+Suriname,2016,24
+Suriname,2017,24
+Suriname,2018,24
+Suriname,2019,24
+Sweden,2016,12
+Sweden,2017,12
+Sweden,2018,11
+Sweden,2019,16
+Switzerland,2016,46
+Switzerland,2017,27
+Switzerland,2018,27
+Switzerland,2019,17
+Syrian Arab Republic,2016,36
+Syrian Arab Republic,2017,33
+Syrian Arab Republic,2018,26
+Syrian Arab Republic,2019,20
+Tajikistan,2016,19
+Tajikistan,2017,18
+Tajikistan,2018,18
+Tajikistan,2019,16
+Thailand,2016,14
+Thailand,2017,13
+Thailand,2018,13
+Thailand,2019,13
+Timor-Leste,2016,50
+Timor-Leste,2017,47
+Timor-Leste,2018,46
+Timor-Leste,2019,32
+Togo,2016,48
+Togo,2017,42
+Togo,2018,45
+Togo,2019,39
+Trinidad and Tobago,2016,33
+Trinidad and Tobago,2017,27
+Trinidad and Tobago,2018,28
+Trinidad and Tobago,2019,14
+Tunisia,2016,24
+Tunisia,2017,24
+Tunisia,2018,24
+Tunisia,2019,24
+Turkey,2016,17
+Turkey,2017,22
+Turkey,2018,21
+Turkey,2019,32
+Turkmenistan,2016,62
+Turkmenistan,2017,65
+Turkmenistan,2018,59
+Turkmenistan,2019,12
+Uganda,2016,35
+Uganda,2017,65
+Uganda,2018,57
+Uganda,2019,43
+Ukraine,2016,22
+Ukraine,2017,18
+Ukraine,2018,31
+Ukraine,2019,74
+United Arab Emirates,2016,50
+United Arab Emirates,2017,42
+United Arab Emirates,2018,63
+United Arab Emirates,2019,93
+United Kingdom of Great Britain and Northern Ireland,2016,39
+United Kingdom of Great Britain and Northern Ireland,2017,41
+United Kingdom of Great Britain and Northern Ireland,2018,37
+United Kingdom of Great Britain and Northern Ireland,2019,19
+United Republic of Tanzania,2016,12
+United Republic of Tanzania,2017,12
+United Republic of Tanzania,2018,14
+United Republic of Tanzania,2019,27
+United States of America,2016,20
+United States of America,2017,18
+United States of America,2018,27
+United States of America,2019,29
+Uruguay,2016,31
+Uruguay,2017,32
+Uruguay,2018,33
+Uruguay,2019,34
+Uzbekistan,2016,44
+Uzbekistan,2017,56
+Uzbekistan,2018,73
+Uzbekistan,2019,79
+Vanuatu,2016,22
+Vanuatu,2017,28
+Vanuatu,2018,28
+Vanuatu,2019,34
+Venezuela (Bolivarian Republic of),2016,83
+Venezuela (Bolivarian Republic of),2017,164
+Venezuela (Bolivarian Republic of),2018,165
+Venezuela (Bolivarian Republic of),2019,168
+Viet Nam,2016,18
+Viet Nam,2017,18
+Viet Nam,2018,14
+Viet Nam,2019,22
+Yemen,2016,85
+Yemen,2017,123
+Yemen,2018,93
+Yemen,2019,67
+Zambia,2016,21
+Zambia,2017,29
+Zambia,2018,40
+Zambia,2019,58
+Zimbabwe,2016,47
+Zimbabwe,2017,40
+Zimbabwe,2018,31
+Zimbabwe,2019,47
