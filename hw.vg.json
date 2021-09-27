@@ -15,55 +15,80 @@
     { "filter": "datum.Year == '2019'" },
     { "filter": "datum.GDP != 0 && datum.FoodSupplyVar != 0" }
   ],
-  "selection": {
-    "continent_highlight": {
-      "type": "multi",
-      "fields": ["Continent"],
-      "bind": "legend"
-    }
-  },
-  "mark": { "type": "point" },
   "encoding": {
     "y": {
       "field": "FoodSupplyVar",
       "type": "quantitative",
       "title": "Per capita food supply variability (kcal/cap/day)"
     },
-    "x": { "field": "GDP", "type": "quantitative", "title": "GDP ($)" },
-    "color": {
-      "field": "Continent",
-      "type": "nominal",
-      "scale": {
-        "domain": [
-          "North America",
-          "South America",
-          "Europe",
-          "Africa",
-          "Asia",
-          "Oceania"
-        ],
-        "range": [
-          "#1b9e77",
-          "#d95f02",
-          "#7570b3",
-          "#e7298a",
-          "#66a61e",
-          "#e6ab02"
-        ]
-      }
-    },
-    "opacity": {
-      "condition": { "selection": "continent_highlight", "value": 0.7 },
-      "value": 0.2
-    },
-    "tooltip": [
-      { "field": "Area", "type": "nominal", "title": "Country" },
-      {
-        "field": "FoodSupplyVar",
-        "type": "quantitative",
-        "title": "Food supply variability"
+    "x": { "field": "GDP", "type": "quantitative", "title": "GDP ($)" }
+  },
+  "layer": [
+    {
+      "selection": {
+        "continent_highlight": {
+          "type": "multi",
+          "fields": ["Continent"],
+          "bind": "legend"
+        }
       },
-      { "field": "GDP", "type": "quantitative", "title": "GDP" }
-    ]
-  }
+      "mark": { "type": "circle" },
+      "color": {
+        "field": "Continent",
+        "type": "nominal",
+        "scale": {
+          "domain": [
+            "North America",
+            "South America",
+            "Europe",
+            "Africa",
+            "Asia",
+            "Oceania"
+          ],
+          "range": [
+            "#1b9e77",
+            "#d95f02",
+            "#7570b3",
+            "#e7298a",
+            "#66a61e",
+            "#e6ab02"
+          ]
+        }
+      },
+      "opacity": {
+        "condition": { "selection": "continent_highlight", "value": 0.7 },
+        "value": 0.2
+      },
+      "tooltip": [
+        { "field": "Area", "type": "nominal", "title": "Country" },
+        {
+          "field": "FoodSupplyVar",
+          "type": "quantitative",
+          "title": "Food supply variability"
+        },
+        { "field": "GDP", "type": "quantitative", "title": "GDP" }
+      ]
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "baseline": "middle",
+        "dx": -12,
+        "fontSize": 11.5,
+        "fontStyle": "italic"
+      },
+      "encoding": {
+        "text": { "field": "Area", "type": "nominal" },
+        "color": { "value": "black" },
+        "opacity": {
+          "condition": {
+            "test": "datum['Area'] == 'China' || datum['Area'] == 'Singapore' || datum['Area'] == 'Australia' || datum['Area'] == 'New Zealand' || datum['Area'] == 'Italy' || datum['Area'] == 'Yemen' ||  datum['Area'] == 'United States'",
+            "value": 1
+          },
+          "value": 0
+        }
+      }
+    }
+  ]
 }
