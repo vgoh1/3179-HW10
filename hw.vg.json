@@ -15,14 +15,6 @@
     { "filter": "datum.Year == '2019'" },
     { "filter": "datum.GDP != 0 && datum.FoodSupplyVar != 0" }
   ],
-  "encoding": {
-    "y": {
-      "field": "FoodSupplyVar",
-      "type": "quantitative",
-      "title": "Per capita food supply variability (kcal/cap/day)"
-    },
-    "x": { "field": "GDP", "type": "quantitative", "title": "GDP ($)" }
-  },
   "layer": [
     {
       "selection": {
@@ -33,61 +25,85 @@
         }
       },
       "mark": { "type": "circle" },
-      "color": {
-        "field": "Continent",
-        "type": "nominal",
-        "scale": {
-          "domain": [
-            "North America",
-            "South America",
-            "Europe",
-            "Africa",
-            "Asia",
-            "Oceania"
-          ],
-          "range": [
-            "#1b9e77",
-            "#d95f02",
-            "#7570b3",
-            "#e7298a",
-            "#66a61e",
-            "#e6ab02"
-          ]
-        }
-      },
-      "opacity": {
-        "condition": { "selection": "continent_highlight", "value": 0.7 },
-        "value": 0.2
-      },
-      "tooltip": [
-        { "field": "Area", "type": "nominal", "title": "Country" },
-        {
+      "encoding": {
+        "y": {
           "field": "FoodSupplyVar",
           "type": "quantitative",
-          "title": "Food supply variability"
+          "title": "Per capita food supply variability (kcal/cap/day)"
         },
-        { "field": "GDP", "type": "quantitative", "title": "GDP" }
-      ]
+        "x": { "field": "GDP", "type": "quantitative", "title": "GDP ($)" },
+        "color": {
+          "field": "Continent",
+          "type": "nominal",
+          "scale": {
+            "domain": [
+              "North America",
+              "South America",
+              "Europe",
+              "Africa",
+              "Asia",
+              "Oceania"
+            ],
+            "range": [
+              "#1b9e77",
+              "#d95f02",
+              "#7570b3",
+              "#e7298a",
+              "#66a61e",
+              "#e6ab02"
+            ]
+          }
+        },
+        "opacity": {
+          "condition": { "selection": "continent_highlight", "value": 0.8 },
+          "value": 0.2
+        },
+        "tooltip": [
+          { "field": "Area", "type": "nominal", "title": "Country" },
+          {
+            "field": "FoodSupplyVar",
+            "type": "quantitative",
+            "title": "Food supply variability"
+          },
+          { "field": "GDP", "type": "quantitative", "title": "GDP" }
+        ]
+      }
     },
     {
       "mark": {
         "type": "text",
         "align": "right",
         "baseline": "middle",
-        "dx": -12,
+        "dx": 43,
+        "dy": -9,
         "fontSize": 11.5,
         "fontStyle": "italic"
       },
       "encoding": {
         "text": { "field": "Area", "type": "nominal" },
         "color": { "value": "black" },
+        "y": {
+          "field": "FoodSupplyVar",
+          "type": "quantitative",
+          "title": "Per capita food supply variability (kcal/cap/day)"
+        },
+        "x": { "field": "GDP", "type": "quantitative", "title": "GDP ($)" },
         "opacity": {
           "condition": {
-            "test": "datum['Area'] == 'China' || datum['Area'] == 'Singapore' || datum['Area'] == 'Australia' || datum['Area'] == 'New Zealand' || datum['Area'] == 'Italy' || datum['Area'] == 'Yemen' ||  datum['Area'] == 'United States'",
+            "test": "datum['Area'] == 'Lesotho' || datum['Area'] == 'Luxembourg' || datum['Area'] == 'Ecuador' || datum['Area'] == 'Lebanon' || datum['Area'] == 'Saint Kitts and Nevis' || datum['Area'] == 'United Arab Emirates' || datum['Area'] == 'Ireland'",
             "value": 1
           },
           "value": 0
-        }
+        },
+        "tooltip": [
+          { "field": "Area", "type": "nominal", "title": "Country" },
+          {
+            "field": "FoodSupplyVar",
+            "type": "quantitative",
+            "title": "Food supply variability"
+          },
+          { "field": "GDP", "type": "quantitative", "title": "GDP" }
+        ]
       }
     }
   ]
