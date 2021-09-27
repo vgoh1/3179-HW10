@@ -1,0 +1,28 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 500,
+  "height": 400,
+  "title": "Per capita food supply variability (kcal/cap/day)",
+  "data": {
+    "url": "https://raw.githubusercontent.com/vgoh1/3179-HW10/main/data/data.csv"
+  },
+  "mark": {
+    "type": "line",
+    "point": true
+  },
+  "encoding": {
+    "x": {
+      "field": "Year",
+      "type": "ordinal"
+    },
+    "y": {
+      "aggregate": "mean",
+      "field": "Value",
+      "type": "quantitative"
+    },
+    "tooltip": [
+      { "field": "Country", "type": "nominal" },
+      { "field": "Value", "type": "quantitative" }
+    ]
+  }
+}
