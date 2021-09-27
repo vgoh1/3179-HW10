@@ -76,10 +76,10 @@
     {
       "mark": {
         "type": "text",
-        "align": "right",
+        "align": "left",
         "baseline": "middle",
-        "dx": 43,
-        "dy": -9,
+        "dx": 5,
+        "dy": -5,
         "fontSize": 11.5,
         "fontStyle": "italic"
       },
