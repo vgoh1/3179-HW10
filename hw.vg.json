@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": 500,
   "height": 400,
-  "title": "Food supply variability vs GDP",
+  "title": "Food Supply Variability vs GDP per capita, 2019",
   "data": {
     "url": "https://raw.githubusercontent.com/vgoh1/3179-HW10/main/data/continents.csv"
   },
@@ -29,9 +29,13 @@
         "y": {
           "field": "FoodSupplyVar",
           "type": "quantitative",
-          "title": "Per capita food supply variability (kcal/cap/day)"
+          "title": "Per capita food supply variability (kcal/capita/day)"
         },
-        "x": { "field": "GDP", "type": "quantitative", "title": "GDP ($)" },
+        "x": {
+          "field": "GDP",
+          "type": "quantitative",
+          "title": "GDP per capita (int.-$)"
+        },
         "color": {
           "field": "Continent",
           "type": "nominal",
@@ -63,9 +67,9 @@
           {
             "field": "FoodSupplyVar",
             "type": "quantitative",
-            "title": "Food supply variability"
+            "title": "Food Supply Variability"
           },
-          { "field": "GDP", "type": "quantitative", "title": "GDP" }
+          { "field": "GDP", "type": "quantitative", "title": "GDP per capita" }
         ]
       }
     },
@@ -84,26 +88,16 @@
         "color": { "value": "black" },
         "y": {
           "field": "FoodSupplyVar",
-          "type": "quantitative",
-          "title": "Per capita food supply variability (kcal/cap/day)"
+          "type": "quantitative"
         },
-        "x": { "field": "GDP", "type": "quantitative", "title": "GDP ($)" },
+        "x": { "field": "GDP", "type": "quantitative" },
         "opacity": {
           "condition": {
-            "test": "datum['Area'] == 'Lesotho' || datum['Area'] == 'Luxembourg' || datum['Area'] == 'Ecuador' || datum['Area'] == 'Lebanon' || datum['Area'] == 'Saint Kitts and Nevis' || datum['Area'] == 'United Arab Emirates' || datum['Area'] == 'Ireland'",
+            "test": "datum['Area'] == 'Lesotho' || datum['Area'] == 'Luxembourg' || datum['Area'] == 'Ecuador' || datum['Area'] == 'Lebanon' || datum['Area'] == 'Saint Kitts and Nevis' || datum['Area'] == 'Kuwait' || datum['Area'] == 'Ireland'",
             "value": 1
           },
           "value": 0
-        },
-        "tooltip": [
-          { "field": "Area", "type": "nominal", "title": "Country" },
-          {
-            "field": "FoodSupplyVar",
-            "type": "quantitative",
-            "title": "Food supply variability"
-          },
-          { "field": "GDP", "type": "quantitative", "title": "GDP" }
-        ]
+        }
       }
     }
   ]
