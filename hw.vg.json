@@ -23,9 +23,7 @@
     "x": {
       "field": "GDP",
       "type": "quantitative",
-      "title": "GDP ($)",
-      "axis": { "tickCount": 10 },
-      "scale": { "type": "log", "domain": [500, 200000] }
+      "title": "GDP ($)"
     },
     "tooltip": [
       { "field": "Area", "type": "nominal", "title": "Country" },
