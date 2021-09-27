@@ -4,7 +4,7 @@
   "height": 400,
   "title": "Food supply variability vs GDP",
   "data": {
-    "url": "https://raw.githubusercontent.com/vgoh1/3179-HW10/main/data/data.csv"
+    "url": "https://raw.githubusercontent.com/vgoh1/3179-HW10/main/data/continents.csv"
   },
   "transform": [
     { "pivot": "Item", "value": "Value", "groupby": ["Area", "Year"] },
@@ -24,6 +24,10 @@
       "field": "GDP",
       "type": "quantitative",
       "title": "GDP ($)"
+    },
+    "color": {
+        "field": "Continent",
+        "type": "nominal"
     },
     "tooltip": [
       { "field": "Area", "type": "nominal", "title": "Country" },

@@ -306,10 +306,10 @@ China,Asia,FoodSupplyVar,2016,20
 China,Asia,FoodSupplyVar,2017,19
 China,Asia,FoodSupplyVar,2018,19
 China,Asia,FoodSupplyVar,2019,21
-China, Taiwan Province of,Asia,FoodSupplyVar,2016,17
-China, Taiwan Province of,Asia,FoodSupplyVar,2017,19
-China, Taiwan Province of,Asia,FoodSupplyVar,2018,25
-China, Taiwan Province of,Asia,FoodSupplyVar,2019,16
+Taiwan,Asia,FoodSupplyVar,2016,17
+Taiwan,Asia,FoodSupplyVar,2017,19
+Taiwan,Asia,FoodSupplyVar,2018,25
+Taiwan,Asia,FoodSupplyVar,2019,16
 Colombia,South America,GDP,2016,14194.5
 Colombia,South America,GDP,2017,14171.3
 Colombia,South America,GDP,2018,14314.9
